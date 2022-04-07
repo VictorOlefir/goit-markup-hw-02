@@ -41,6 +41,7 @@ a {
 
 /*==========================++++++HEADER++++++==========================*/
 .header-logo {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -49,6 +50,7 @@ a {
   color: var(--active-color);
 }
 .header-logo2 {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -143,6 +145,7 @@ a {
   background-color: var(--bg-hero-color);
 }
 .footer-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -150,6 +153,7 @@ a {
   color: var(--active-color);
 }
 .footer-logo2 {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
