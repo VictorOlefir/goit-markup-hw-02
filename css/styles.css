@@ -23,8 +23,7 @@
 body {
   background-color: var(--bg-white-color);
   color: var(--main-text-color);
-  font-family: roboto, sans-serif;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -34,6 +33,9 @@ li {
 }
 a {
   text-decoration: none;
+}
+address {
+  font-style: normal;
 }
 .btn {
   cursor: pointer;
@@ -58,13 +60,19 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.header-item,
-.contacts-item {
+.header-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+.contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 .header-item:hover,
 .header-item:focus,
@@ -79,7 +87,7 @@ a {
 
 /*==========================++++++HERO++++++==========================*/
 .hero {
-  background: #2f303a;
+  background: var(--bg-hero-color);
 }
 .hero-title-text {
   font-weight: 900;
@@ -91,14 +99,14 @@ a {
 }
 .hero-btn {
   color: var(--bg-white-color);
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   background: var(--active-color);
 }
+
 /*==========================++++++POSITIVE++++++==========================*/
 .positive-title {
   font-weight: 700;
@@ -113,6 +121,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+
 /*==========================++++++WORK++++++==========================*/
 .work-title {
   font-weight: 700;
@@ -120,6 +129,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 /*==========================++++++STAFF++++++==========================*/
 .staff-title {
   font-weight: 700;
@@ -134,12 +144,12 @@ a {
   letter-spacing: 0.03em;
 }
 .staff-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+
 /*==========================++++++FOOTER++++++==========================*/
 .footer {
   background-color: var(--bg-hero-color);
@@ -161,14 +171,12 @@ a {
   color: var(--inactive_btn_color);
 }
 .footer-item-white {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--bg-white-color);
 }
 .footer-item {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -187,7 +195,7 @@ a {
 /*==========================++++++PORTFOLIO++++++==========================*/
 .portfolio-btn {
   color: var(--main-text-color);
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
